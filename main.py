@@ -10,12 +10,9 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 from sklearn.metrics import accuracy_score, classification_report, balanced_accuracy_score, roc_auc_score
 
-# from utils import DirichletLoss
-# from utils.trainers import model_train, model_predict,TrustWI_wo_train,TrustWI_wo_predict
 from utils.trainers_dirichlet import TrustWI_train, TrustWI_predict
 from utils import SEPARATOR
 from utils import get_path_of_all
-# from utils.utils import create_directory
 from utils.utils import ce_loss
 from utils.utils import setup_logger
 from utils.model import TrustWI
