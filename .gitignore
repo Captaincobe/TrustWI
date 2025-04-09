@@ -17,8 +17,10 @@ image/
 log/
 
 baseline/
-*.py
+*.csv
 *.pth
 *.pt
 *.h5
 *.npz
+
+model/
